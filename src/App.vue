@@ -38,9 +38,8 @@ export default {
 }
 </script>
 
-<style scoped>
-/* scoped 會只使用在這個元件裡 */
-h1 {
-  color: red;
-}
+<style scoped lang="stylus">
+// scoped 會只使用在這個元件裡
+// h1
+//   color red
 </style>
