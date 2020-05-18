@@ -3,6 +3,8 @@ body
   box-sizing border-box
   display flex
   justify-content center
+  font-family 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, '微軟正黑體'
+
 
 .cards
   width 80vmin
@@ -14,11 +16,16 @@ body
   width 20vmin
   margin 1rem
   padding 0.6rem
-
-  border 1px solid #333
+  border 1px solid #fff
 
   img 
     width 100%
 
   h1
     font-size 2vmin
+    color #ffffff
+    text-shadow 0.1vmin 0.1vmin 0.1vmin #333
+
+  &:hover
+    filter hue-rotate(120deg)
+    cursor pointer
