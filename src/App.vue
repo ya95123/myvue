@@ -2,9 +2,11 @@
   <div id="app">
     <h1>{{text}}</h1>
     <!-- 直接抓取 -->
-    <Card :data="cards[0]"></Card>
+    <!-- <Card :data="cards[0]"></Card> -->
     <!-- 在 cli 裡迴圈裡一定要加上 index 和 綁定 :key="index" -->
-    <Card v-for="(card,index) in cards" :key="index" :data="card"></Card>
+    <div class="cards">
+      <Card class="card" v-for="(card,index) in cards" :key="index" :data="card"></Card>
+      </div>
   </div>
 </template>
 
