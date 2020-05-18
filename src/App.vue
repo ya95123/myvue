@@ -35,6 +35,7 @@ export default {
   },
   // 2.子元件
   components: {
+    // 檔案名稱
     Card
   }
 }
