@@ -9,7 +9,7 @@
 </template>
 
 <script>
-// 1.引進 元件名稱 from 路徑
+// 1.引進 "元件名稱" from "路徑"
 import Card from './components/Card.vue'
 // 要匯出去的資訊
 export default {
@@ -38,7 +38,8 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+/* scoped 會只使用在這個元件裡 */
 h1 {
   color: red;
 }
